@@ -39,30 +39,30 @@ This will result in a list of applicable templates showing up where you can star
 ## Available Custom LiveTemplates
 ###Traceability
 
-#|  Abbreviation  | Template   
--|-|-------------- |---------------
-1| lg            | Declare the logger and initialise it in a static block using the current class name.
-2|  lgd           | Log at the debug level: `LOGGER.debug("");` 
-3|  lge           | Log at the error level: `LOGGER.error("");` 
-4|  lgi           | Log at the info level: `LOGGER.info("");`
-5|  lgt           | Log at the trace level: `LOGGER.trace("");`
+|#|  Abbreviation  | Template
+|-|-------------- |---------------
+|1| lg            | Declare the logger and initialise it in a static block using the current class name.
+|2|  lgd           | Log at the debug level: `LOGGER.debug("");`
+|3|  lge           | Log at the error level: `LOGGER.error("");`
+|4|  lgi           | Log at the info level: `LOGGER.info("");`
+|5|  lgt           | Log at the trace level: `LOGGER.trace("");`
 
 ###Testing
 
-#|  Abbreviation  | Template   
--|-|-------------- |---------------
-1 | ase | Assert Equals:  `Assert.assertEquals(String.format(""),,);` 
-2| asf | Assert false: ` Assert.assertFalse(String.format(""),);` 
-3 | asn | Assert null: `Assert.assertNull(String.format(""),);`
-4| asnn | Assert not null: `Assert.assertNotNull(String.format(""),);`
-5 | ast |Assert true: `Assert.assertTrue(String.format(""),);`
-6| eme | Generates the .reset ; .expect ; .replay and .verify for the selected service being mocked. 
-7 | junit | Creates the Spring JUnit annotation. Should be run at the top of a test class to ensure it is generated in the correct place. 
+|#|  Abbreviation  | Template
+|-|-------------- |---------------
+|1 | ase | Assert Equals:  `Assert.assertEquals(String.format(""),,);`
+|2| asf | Assert false: ` Assert.assertFalse(String.format(""),);`
+|3 | asn | Assert null: `Assert.assertNull(String.format(""),);`
+|4| asnn | Assert not null: `Assert.assertNotNull(String.format(""),);`
+|5 | ast |Assert true: `Assert.assertTrue(String.format(""),);`
+|6| eme | Generates the .reset ; .expect ; .replay and .verify for the selected service being mocked.
+|7 | junit | Creates the Spring JUnit annotation. Should be run at the top of a test class to ensure it is generated in the correct place.
 
 ###Utility
-#|  Abbreviation  | Template   
--|-|-------------- |---------------
-1| sf | Generates: `String.format("")`. Semicolon intentionally left out so this can be used inside other methods and not just to define a variable. 
+|#|  Abbreviation  | Template
+|-|-------------- |---------------
+|1| sf | Generates: `String.format("")`. Semicolon intentionally left out so this can be used inside other methods and not just to define a variable.
 
 
 ## Tips and Tricks
