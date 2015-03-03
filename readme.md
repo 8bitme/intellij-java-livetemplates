@@ -53,10 +53,10 @@ This will result in a list of applicable templates showing up where you can star
 * `asnn`  : Assert not null: `Assert.assertNotNull(String.format(""),);`                               
 * `ast`   : Assert true: `Assert.assertTrue(String.format(""),);`                                       
 * `eme`   : Generates the .reset ; .expect ; .replay and .verify for the selected service being mocked.
-* `junit` : Creates the Spring JUnit annotation. Should be run at the top of a test class to ensure it is generated in the correct place.                                                                                 |
+* `junit` : Creates the Spring JUnit annotation. Should be run at the top of a test class to ensure it is generated in the correct place.                                                                                 
 
 ###Utility
-* `sf` : Generates: `String.format("")`. Semicolon intentionally left out so this can be used inside other methods and not just to define a variable.                                                                      |
+* `sf` : Generates: `String.format("")`. Semicolon intentionally left out so this can be used inside other methods and not just to define a variable.                                                                      
 
 
 ## Tips and Tricks
