@@ -48,6 +48,7 @@ This will result in a list of applicable templates showing up where you can star
 |5|  lgt           | Log at the trace level: `LOGGER.trace("");`|
 
 ###Testing
+
 |#|  Abbreviation  | Template   |
 |-|-|-------------- |---------------|
 |1 | ase | Assert Equals:  `Assert.assertEquals(String.format(""),,);` |
